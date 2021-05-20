@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.l-header {
+  text-align: center;
+}
+
+.l-header h1 {
+  font-size: 3rem;
+}
+
+.l-header p {
+  font-size: 1.8rem;
+}
+
+.l-main {
+  padding-top: 4rem;
+}
+
+.l-main .wrap .text__result {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.l-main .wrap__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.l-main .wrap__flex .text__question {
+  font-size: 2.4rem;
+  letter-spacing: .3rem;
+}
+
+.l-main .wrap__flex input {
+  padding: 1rem;
+  font-size: 2.4rem;
+  width: 7rem;
+}
+
+.l-main .text__judge {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.l-main .button__reload {
+  text-align: center;
+}
+
+.l-main .button__reload button {
+  background-color: transparent;
+  border: solid .2rem #2a5cff;
+  border-radius: 5rem;
+  margin-top: 1.6rem;
+  padding: .5rem 1.5rem;
+  font-size: 1.6rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.l-main .button__reload button:hover {
+  background-color: #2a5cff;
+  border: solid .2rem #2a5cff;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

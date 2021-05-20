@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/style.css">
+  <title>計算ゲーム</title>
+</head>
+<body>
+
+  <header class="l-header">
+    <h1>無限暗算ゲーム</h1>
+    <p>計算結果をボックスの中に半角数字で入力しエンターキーを押してください</p>
+  </header>
+
+<main class="l-main">
+  <div class="wrap">
+    <p class="text__result" id="correct_rate"></p>
+  </div>
+  
+  <div class="wrap__flex">
+    <p class="text__question" id="question"></p>
+    <input type="text" id="input_box">
+  </div>
+  
+  <p class="text__judge" id="judge"></p>
+  
+  <div class="button__reload">
+    <button type="button" id="reload" onclick="reload();">リセットする</button>   
+  </div>
+</main>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
